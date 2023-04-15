@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<ul>
+    Contexto 
+    <li>
+        Al pasar el mouse por el primer div  “text1” se mostrará el segundo y al salir de él se
+        ocultará nuevamente.
+    </li>
+    <li>
+        Al hacer clic en el div id “caja2” la imagen deberá agrandarse un 100% y al salir de ella,
+        volver a su tamaño inicial.
+    </li>
+    <li>
+        Con el tercer div la letra se agrandará al hacer doble clic en él.
+    </li>
+
+    <li>
+        Se dejan elementos en cajas con bordes para diferenciar cada uno de ellos 
+    </li>
+</ul>
+    
+<div class="caja1 container">
+    <h2>Caja 1</h2>
+    <div id="text1" style="border: 1px solid black" >
+        <h2>Text1</h2>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit. Eveniet, accusantium distinctio
+            accusamus totam rem at ex alias labore veniam
+            aliquam nisi recusandae esse voluptatum culpa veritatis
+            enim porro dolor quis?
+        </p>
+    </div>
+    <div id="text2"  style="border: 1px solid black" > 
+        <h2>Text 2 </h2>
+        <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Eveniet, accusantium distinctio
+        accusamus totam rem at ex alias labore veniam aliquam
+        nisi recusandae esse voluptatum culpa veritatis
+        enim porro dolor quis?
+        </p>
+    </div>
+</div>
+
+ <div id="caja2"  style="border: 1px solid black" >
+    <h2>Caja 2</h2>
+    <img src="./assets/img/n.png" id="img" width="20%"
+    alt="">
+ </div>
+ <div id="caja3" style="border: 1px solid black" >
+    <h2>Caja 3</h2>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        Sapiente laudantium aliquid rem consequatur eius nemo alias provident
+        sunt et voluptate in aut, quas hic quia dolores, corrupti voluptatem
+        reiciendis facere.
+    </p>
+ </div>
+
+ <script
+  src="https://code.jquery.com/jquery-3.6.4.js"
+  integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+  crossorigin="anonymous"></script>
+ <script src="./assets/js/s9.js"></script>
+</body>
+</html>

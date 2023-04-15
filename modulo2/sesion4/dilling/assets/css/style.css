@@ -1,0 +1,228 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    display: flex;
+}
+
+.container table tr.first_row th:nth-child(1) {
+	background-color: red;
+}
+
+.container table tr.first_row th:nth-child(2) {
+	background-color: white;
+}
+
+.container table tr.first_row th:nth-child(3) {
+	background-color: green;
+}
+
+.container table tr.first_row th:nth-child(4) {
+	background-color: gray;
+}
+
+.container table tr.second_row th:nth-child(1) {
+	background-color: brown;
+}
+
+.container table tr.second_row th:nth-child(2) {
+	background-color: blue;
+}
+
+.container table tr.second_row th:nth-child(3) {
+	background-color: violet;
+}
+
+.container table tr.third_row th:nth-child(1) {
+	background-color: pink;
+}
+
+.container table tr.third_row th:nth-child(2) {
+	background-color: yellow;
+}
+
+.container table tr.third_row th:nth-child(3) {
+	background-color: turquoise;
+}
+
+.container table tr.four_row th:nth-child(1) {
+	background-color: orange;
+}
+
+.container table tr.four_row th:nth-child(2) {
+	background-color: purple;
+}
+
+.container table tr.four_row th:nth-child(3) {
+	background-color: black;
+    color: white;
+}
+
+
+nav{
+    display: flex;
+    background-color: black;
+    background-image: url(../img/fondo.jpg);
+    background-size: 32vw 23vh;
+    height: 10vh;
+}
+
+h1, h2{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: #c4c4c4;
+}
+
+/* .container_banner{
+    display: flex;
+    width: 100%;
+    padding: 0 5% 0 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40rem;
+    height: 30rem;
+    flex-direction: column;
+}
+*/
+
+.iframeContacto>iframe{
+    width: 35%;
+    border-radius: 2.4em;
+    box-shadow: 11px 9px 11px #000000c7;
+    display: flex;
+    overflow: hidden;
+    background-color: #4f4f4f;
+    height: 40vw;
+   
+}
+
+.iframeContacto{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0 1rem 0;
+}
+
+.banner>img {
+    width: 60%;
+    height: 20em;
+} 
+
+@media screen and (min-width: 1200px) {
+    .container_banner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .banner {
+        width: calc(33.33% - 1rem);
+        height: calc(33.33% - 1rem);
+        display: flex;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+  
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    .container_banner {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+    .banner {
+      width: calc(50% - 1rem);
+      height: calc(50% - 1rem);
+      display: flex;
+      flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+      box-sizing: border-box;
+    }
+  }
+  
+  @media (max-width: 991px) {
+     .container_banner {
+       display:flex;
+       flex-direction:column;
+       justify-content:center;
+       align-items:center;
+     }
+     
+     .banner {
+       width:auto;
+       height:auto;
+       display: flex;
+       margin-right:none;
+       margin-bottom:none;
+       box-sizing: border-box;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+     }
+
+     .iframeContacto{
+        display: none;
+     }
+  }
+
+
+.form_Contacto{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  
+}
+
+footer{
+    background-image: url(../img/fondo.jpg);
+    background-color: black;
+    background-size: 70% 25rem;
+    background-repeat: no-repeat;
+    height: 18vw;
+}
+
+footer>p{
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    padding-top: 13.5%;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+}
+
+.list>ul{
+    display: flex;
+    list-style: none;
+}
+
+.list>ul>li{
+    display: flex;
+    margin: 0 2rem 0 2rem;
+}
+
+

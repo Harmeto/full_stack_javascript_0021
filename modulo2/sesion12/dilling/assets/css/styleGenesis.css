@@ -1,0 +1,122 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.header{
+    background-size: 30% 18em;
+    background-repeat: repeat;
+    height: 9em;    
+}
+
+#imgLogoN{
+display: flex;
+height: 7em;
+}
+
+#imagenLogoVaso{
+    width: 100%;
+    border-top: 0ch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#titleRestaurant{
+    text-align: center;
+}
+
+#destacados{
+    text-align: center;
+}
+
+.img_destacadas{
+    display: flex;
+    height: 20em;
+}
+
+.containerFormulario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #070707;
+    height: 50%;
+    width: 50%;
+    border-radius: 5%;
+    color: white;
+}
+
+footer{
+    background-size: 100% 23em;
+    height: 10em;  
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container_hijo>img {
+    width: 100%;
+    height: 20em;
+} 
+
+
+/* Pantalla xl */
+@media screen and (min-width: 1200px) {
+    
+    .contenedor_padre{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .container_hijo{
+        width: calc(33.33% - 1rem);
+        height: 30em;
+        display: flex;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bodyCarta{
+        margin: 0.5em 0.5em 0 0.5em;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .contenedor_padre {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+  
+      .container_hijo {
+        width: calc(50% - 1rem);
+        height: calc(50% - 1rem);
+        display: flex;
+        flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        box-sizing: border-box;
+      }
+}
+/* Pantalla lg */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+/* Pantalla md */
+@media (min-width: 576px) and (max-width: 767px) {
+    
+}
+/* Pantalla sm */
+@media screen and (max-width: 575px) {
+    
+}

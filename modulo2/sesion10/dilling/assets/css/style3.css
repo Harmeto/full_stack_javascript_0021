@@ -1,0 +1,28 @@
+.iframeContacto>iframe{
+    width: 40vw;
+    min-width: 450px;
+    border-radius: 2.4em;
+    box-shadow: 11px 9px 11px #000000c7;
+    display: flex;
+    overflow: hidden;
+    background-color: #4f4f4f;
+    height: 80vh;
+   
+}
+
+.iframeContacto{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0 1rem 0;
+}
+
+footer{
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-size: 100% 50vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
