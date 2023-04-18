@@ -1,0 +1,123 @@
+@charset "UTF-8";
+a {
+  text-decoration: none;
+}
+
+.profileText {
+  border: 2px solid black;
+  border-width: thick;
+  margin-right: 20px;
+}
+
+.profileContainer {
+  display: flex;
+  justify-content: center;
+}
+.profileContainer .profileImg {
+  border-radius: 50% 50%;
+  max-height: 20em;
+  margin-top: 20px;
+}
+
+.profileText {
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  align-self: center;
+}
+
+.card-image-top {
+  height: 15em;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .card-image-top {
+    height: 18em;
+  }
+}
+
+.card-title a:link {
+  font-size: 30px;
+  background-color: transparent;
+  color: #000000;
+  text-decoration: none;
+}
+
+.card-title a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.btn {
+  border-radius: 24px;
+}
+
+.bg-image {
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.contacto {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-floating label {
+  font-size: 14px;
+  color: #a3a3a3;
+}
+
+.form-floating input,
+.form-floating textarea {
+  padding: 10px 15px;
+  border-radius: 0;
+  border: 1px solid #e6e6e6;
+}
+
+.form-floating input:focus,
+.form-floating textarea:focus {
+  border-color: #007bff;
+  box-shadow: none;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  padding: 10px 25px;
+  margin-top: 20px;
+  border-radius: 0;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-primary:focus {
+  box-shadow: none;
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
+
+body {
+  background-image: url("../img/game.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; /* altura del elemento que contendrá la imagen de fondo */
+  transition: transform 0.1s ease;
+}
+body body:hover {
+  transform: translateY(-50px); /* desplazamiento vertical al pasar el mouse sobre la sección */
+}/*# sourceMappingURL=style.css.map */
