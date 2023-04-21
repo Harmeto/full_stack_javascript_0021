@@ -1,0 +1,35 @@
+.min-content {
+    width: min-content;
+    }
+
+    .align-self-center {
+    align-self: center;
+    }
+
+    .card-img-overlay {
+    transition: 0.3s;
+        h4{
+            display: none;
+        }
+        p{
+            display: none;
+        }
+    }
+
+    .card-img-overlay .card-title, .card-img-overlay .card-text{
+        pointer-events: none;
+    }
+
+    .card-img-overlay:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+        h4{
+            display: block;
+        }
+        p{
+            display: block;
+        }
+    }
+
+    .card-img-overlay:hover .card-img {
+    filter: blur(4px);
+    }
