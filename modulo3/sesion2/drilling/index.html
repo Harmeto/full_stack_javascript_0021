@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./assets/js/index.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <!-- Íconos -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>El Tiempo</title>
+</head>
+
+<body>
+    <div class="page-content page-container" id="page-content">
+        <div class="padding">
+            <div class="row container d-flex justify-content-center" id="wholeThing">
+                <div class="col-lg-8 grid-margin stretch-card">
+                    <!--weather card-->
+                    <div class="card card-weather">
+                        <div class="card-body">
+                          <div class="weather-data d-flex">
+                            <div class="mr-auto">
+                              <h2 class="display-3" id="bigTemp" value="32">32</h2>
+                              <h2 class="display-3" id="bigC">°C</h2>
+                              <p class="display-4"> Nublado </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-body p-0">
+                          <div class="d-flex weakly-weather" id="days">
+                            <div class="weakly-weather-item">
+                              <p class="mb-1">Dom</p>
+                              <i class="fas fa-sun"></i>
+                              <p class="mb-0" id="sun" value="30">30</p><p class="symb">°</p>
+                            </div>
+                            <div class="weakly-weather-item">
+                              <p class="mb-1">Lun</p>
+                              <i class="fas fa-sun"></i>
+                              <p class="mb-0" id="mon" value="31">31</p><p class="symb">°</p>
+                            </div>
+                            <div class="weakly-weather-item">
+                              <p class="mb-1">Mar</p>
+                              <i class="fas fa-cloud-sun-rain"></i>
+                              <p class="mb-0" id="tue" value="28">28</p><p class="symb">°</p>
+                            </div>
+                            <div class="weakly-weather-item">
+                              <p class="mb-1">Mie</p>
+                              <i class="fas fa-sun"></i>
+                              <p class="mb-0" id="wed" value="30">30</p><p class="symb">°</p>
+                            </div>
+                            <div class="weakly-weather-item">
+                              <p class="mb-1">Jue</p>
+                              <i class="fas fa-cloud-sun"></i>
+                              <p class="mb-0" id="thu" value="29">29</p><p class="symb">°</p>
+                            </div>
+                            <div class="weakly-weather-item">
+                              <p class="mb-1">Vie</p>
+                              <i class="fas fa-sun"></i>
+                              <p class="mb-0" id="fri" value="31">31</p><p class="symb">°</p>
+                            </div>
+                            <div class="weakly-weather-item">
+                              <p class="mb-1">Sab</p>
+                              <i class="fas fa-sun"></i>
+                              <p class="mb-0" id="sat" value="32">32</p><p class="symb">°</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div>
+                            <div>
+                                <div class="container bottom-part">
+                                    <h4 class="toggles">°C</h4>
+                                    <label class="switch toggles">
+                                        <input type="checkbox"  id="toggleButton" onclick="toggleTemp()">
+                                        <span class="slider round"></span>
+                                    </label>
+                                    <h4 class="toggles">°F</h4>
+                                </div>
+                            </div>
+                          
+                        </div>
+                      </div>
+                    <!--weather card ends-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+</body>
+
+
+<script>
+
+</script>
+
+</html>
