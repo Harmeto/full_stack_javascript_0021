@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="bg-body-secondary">
+  <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">FlyNow</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                   
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+  </header>
+  <main >
+    <div class="container-fluid">
+        <div class="mt-4 mb-4">
+            <h1 class="text-center">¿A dónde quieres ir?</h1>
+            <h4 class="text-center text-secondary">Estas a solo unos pasos de estar en el destino de tus sueños de tus vacaciones. A continuación, cuentanos a donde quieres ir.</h4>
+        </div>
+        <form class="d-flex flex-wrap flex-row justify-content-center align-items-center">
+            <div class="form-group col-4 mx-4">
+              <label for="origen">Origen:</label>
+              <select class="form-control" id="origen">
+                <option value="">Seleccione el origen del vuelo</option>
+                <option value="Chicago, USA">Chicago, USA</option>
+                <option value="Boston, USA">Boston, USA</option>
+                <option value="Santiago, CHL">Santiago, CHL</option>
+                <option value="Arica, CHL">Arica, CHL</option>
+              </select>
+              <div class="form-group">
+                <label for="fecha">Fecha:</label>
+                <input type="date" class="form-control" id="fecha">
+              </div>
+            </div>
+            <div class="form-group col-4 mx-4">
+              <label for="destino">Destino:</label>
+              <select class="form-control" id="destino">
+                <option value="">Seleccione el destino del vuelo</option>
+                <option value="Venecia, IT">Venecia, IT</option>
+                <option value="Paris, FR">Paris, FR</option>
+                <option value="Mendoza, ARG">Mendoza, ARG</option>
+                <option value="Lima, PRU">Lima, PRU</option>
+              </select>
+              <div class="form-group">
+                <label for="fecha">Fecha:</label>
+                <input type="date" class="form-control" id="fecha2">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary col-6 mt-4">Buscar</button>
+          </form>
+    </div>
+    
+
+
+    <div class="container-fluid mt-4">
+        <div class="card text-start">
+          <div class="card-body">
+            <h4 class="card-title text-center">Itinerario</h4>
+            <hr>
+                <div id="resultado" class="text-center mt-4"></div>
+                <div id="error-fechas" class="text-center mt-4"></div>
+                <div id="cartas" class="container d-flex justify-content-around flex-wrap">
+                </div>
+          </div> 
+        </div>
+    </div>
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+
+  <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
