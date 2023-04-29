@@ -1,0 +1,9 @@
+.img-fluid{
+    max-width: 4em;
+    max-height: 4em;
+}
+
+body{
+    background: rgb(47,213,58);
+background: linear-gradient(90deg, rgba(47,213,58,1) 0%, rgba(255,255,255,1) 47%, rgba(255,0,0,1) 100%);
+}

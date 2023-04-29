@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+  </header>
+  <main>
+    <section class="container-fluid d-flex flex-column justify-content-center" style="width: 64vw;">
+        <div class="card" id="carta-bebida" style="height: 20em;">
+            <h4 class="text-center text-secondary">Elige algo para beber.</h4>
+            <p class="text-center">Disfruta nuestra coleccion de bebestibles</p>
+            <div id="bebida" class="d-flex flex-column align-items-center"></div>
+        </div>
+    </section>
+
+    <section class="container-fluid d-flex flex-column justify-content-center mt-3" style="width: 64vw;">
+        <div class="card" id="carta-productos" style="height: 24em;">
+            <h4 class="text-center text-secondary">Menu.</h4>
+            <p class="text-center">Disfruta de la mejor comida Italiana</p>
+            <div id="producto" class="d-flex flex-column align-items-center"></div>
+        </div>
+    </section>
+  
+    <section class="container-fluid d-flex flex-column justify-content-center mt-3" style="width: 64vw;" id="footer">
+        <div class="card" >
+            <h4 class="text-center text-secondary">Total de la cuenta.</h4>
+            <div class="text-center" >
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Item</th>
+                        <th scope="col">Precio</th>
+                      </tr>
+                    </thead>
+                    <tbody id="items">
+                    
+                      <tr>
+                        <th scope="row">Total</th>
+                        <td colspan="2" id="total">$0.00</td>
+                      </tr>
+                    </tbody>
+                  </table>    
+            </div>
+            <div id="producto" class="d-flex flex-column align-items-center"></div>
+        </div>
+    </section>
+  
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+
+  <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
