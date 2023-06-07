@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.characters {
+  margin-top: 10px;
+}
+
+.col-12.section.d-flex.flex-wrap{
+      cursor: pointer;
+}
+
+.character {
+  margin-bottom: 5px;
+}
+
+.character-name {
+  font-weight: bold;
+}
+
+.character-info {
+  font-size: 14px;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.section {
+  padding: 10px;
+  background-color: #f1f1f1;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.character {
+  flex: 0 0 calc(25.33% - 10px);
+  background-color: #fff;
+  color: black;
+  padding: 10px;
+}
+
+.character h3 {
+  margin-top: 0;
+}
+
+.character p {
+  margin-bottom: 0;
+}
